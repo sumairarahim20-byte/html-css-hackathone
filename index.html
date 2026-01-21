@@ -12,11 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- swiper j.s link -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
+   
     <!-- bootstrap link -->
 
     <link
@@ -37,9 +33,9 @@
   </head>
   <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img src="./images/Group 237737.png" alt="logo" />Zarrin
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid ms-5">
+        <img src="./images/Group 237737.png" alt="logo" /> <span class="fw-bold ms-3">Zarrin</span>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,22 +48,17 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Blog</a>
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-5 ">
+              <a class="nav-link active" aria-current="page" href="#"><span style="color: #7c4ee4;">Blog</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-primary" type="submit">
+          <form class="d-flex me-5" role="search"> 
+           <img class="me-3" src="./images/Shape.png" alt="">
+            <button class="btn custom-purple text-light btn-outline-dark me-5" type="submit">
               Contactc us
             </button>
           </form>
@@ -78,12 +69,12 @@
 
     <!-- hero section start -->
 
-    <!-- <div class="container-fluid d-flex"> -->
-    <div class="container py-5 mt-5 custom-purple">
+     <!-- <div class="container-fluid d-flex">  -->
+     <div class="container py-2 my-5 custom-purple">
       <div class="row align-items-center">
-        <!-- <div class="ms-5 py-5 mt-5"> -->
-        <div class="col-md-6 mb-4 mb-md-0">
-          <h1 class="fw-bold">
+         <!-- <div class="ms-5 py-5 mt-5">  -->
+         <div class="col-md-6 mb-4 mb-md-0">
+          <h1 class="fw-bold ">
             HOW AI WILL <br />
             CHANGE THE FUTURE
           </h1>
@@ -93,27 +84,26 @@
             cute. For example, home robots will overcome navigation, direction.
           </p>
           <button
-            class="btn btn-outline-dark py-4 me-5 btn-lg px-5"
-            type="submit"
-          >
+            class="btn btn-outline-dark py-4 me-5 btn-lg px-5 btn-lg px-5"
+            type="submit">
             READ MORE
           </button>
-        </div>
-        <!-- <div class="ms-5"> -->
-        <div class="col-md-6 text-center mt-5">
+        </div> 
+         <!-- <div class="ms-5">  -->
+      <div class="col-md-6 text-center my-5">
           <img src="./images/image-1.png" class="img-fluid" alt="" />
         </div>
       </div>
     </div>
 
 
-    <div class="card text-bg-dark mt-5">
+    <!-- <div class="card text-bg-dark mt-5">
       <img src="./images/image-2.png" class="card-img" alt="..." />
       <div class="card-img-overlay container-xxl">
         <div class="position-absolute top-100 start-50 translate-middle">
           <div class="card-header">development</div>
           <div class="">
-            <h5 class="card-title">
+            <h5 class="card-title ">
               How to make a Game look more attractive with New <br />
               VR & AI Technology
             </h5>
@@ -128,17 +118,41 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>   -->
     <!-- hero section end -->
-     <!-- post section start -->
+     
 
+<div class="container-fluid p-0">
+    <img src="./images/image-2.png" alt="Banner Image" class="img-fluid w-100" style="height:100vh; object-fit:cover;">
+</div>
+
+
+<div class="container me-5">
+    <div class="row">
+        <!-- Left Side Content -->
+        <div class="col-md-6 ">
+            <h2> How to make a Game look more attractive with New <br />
+              VR & AI Technology</h2>
+            <p>
+                 Google has been investing in AI for many years and <br />bringing
+              its benefits to individuals, businesses and communities. Whether
+              it’s publishing state-of-the-art research, building helpful
+              products or developing tools <br />and resources that enable
+              others, we’re committed to making AI accessible to everyone.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+     <!-- post section start -->
 <div class="card mb-3 container-xxl mt-5">
   <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./images/image-2.png" class="img-fluid rounded-start" alt="...">
+    <div class="col-md-4  ">
+      <img src="./images/image-2.png" class="img-fluid rounded-start h-100 mx-5" alt="...">
     </div>
     <div class="col-md-8">
-      <div class="card-body">
+      <div class="card-body mx-5 px-5">
         <h5 class="card-title">How to make a Game look more <br> attractive with New VR & AI <br> Technology</h5>
         <p class="card-text">Google has been investing in AI for many years and bringing its <br> benefits to individuals, businesses and communities. Whether it’s <br> publishing state-of-the-art research, building helpful products or <br> developing tools and resources that enable others, we’re <br> committed to making AI accessible to everyone.
 </p>
@@ -146,7 +160,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> 
 
      <!-- post section end -->
 
@@ -221,7 +235,7 @@
     <!-- Card 1 -->
     <div class="col-12 col-md-6 col-lg-4">
       <div class="card h-90">
-        <img src="./images/card-1.png" class="card-img-top" alt="Image 1">
+        <img src="./images/card-2-1.png" class="card-img-top" alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Card Title 1</h5>
           <p class="card-text">Yeh card ka description text hai. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod dolore, facere doloremque aperiam numquam provident officiis sed, voluptates quis voluptas quos. Velit reiciendis optio quam odio? Tenetur, culpa nobis?
@@ -233,7 +247,7 @@
     <!-- Card 2 -->
     <div class="col-12 col-md-6 col-lg-4">
       <div class="card h-90">
-        <img src="./images/card-2.png" class="card-img-top" alt="Image 2">
+        <img src="./images/card-2-2.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Card Title 2</h5>
           <p class="card-text">Yeh card ka description text hai. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod dolore, facere doloremque aperiam numquam provident officiis sed, voluptates quis voluptas quos. Velit reiciendis optio quam odio? Tenetur, culpa nobis?
@@ -245,7 +259,7 @@
     <!-- Card 3 -->
     <div class="col-12 col-md-6 col-lg-4">
       <div class="card h-90">
-        <img src="./images/card-3.png" class="card-img-top" alt="Image 3">
+        <img src="./images/card-2-3.png" class="card-img-top" alt="Image 3">
         <div class="card-body">
           <h5 class="card-title">Card Title 3</h5>
           <p class="card-text">Yeh card ka description text hai. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod dolore, facere doloremque aperiam numquam provident officiis sed, voluptates quis voluptas quos. Velit reiciendis optio quam odio? Tenetur, culpa nobis?
@@ -257,6 +271,120 @@
   </div>
 </div>
 <!-- card section-2-end -->
+<!-- card section-3-start -->
+<div class="container my-5">
+  <div class="row g-4">
+
+    <!-- Card 1 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-90">
+        <img src="./images/card-3-1.png" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Card Title 1</h5>
+          <p class="card-text">Yeh card ka description text hai. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod dolore, facere doloremque aperiam numquam provident officiis sed, voluptates quis voluptas quos. Velit reiciendis optio quam odio? Tenetur, culpa nobis?
+         magnam et commodi similique in fugit dicta optio tenetur repellat, provident sit vel sunt possimus omnis, at maiores assumenda animi sint odit dolores incidunt? Dolores, unde.</p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-90">
+        <img src="./images/card-3-2.png" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Card Title 2</h5>
+          <p class="card-text">Yeh card ka description text hai. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod dolore, facere doloremque aperiam numquam provident officiis sed, voluptates quis voluptas quos. Velit reiciendis optio quam odio? Tenetur, culpa nobis?
+         magnam et commodi similique in fugit dicta optio tenetur repellat, provident sit vel sunt possimus omnis, at maiores assumenda animi sint odit dolores incidunt? Dolores, unde.</p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-90">
+        <img src="./images/card-3-3.png" class="card-img-top" alt="Image 3">
+        <div class="card-body">
+          <h5 class="card-title">Card Title 3</h5>
+          <p class="card-text">Yeh card ka description text hai. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quod dolore, facere doloremque aperiam numquam provident officiis sed, voluptates quis voluptas quos. Velit reiciendis optio quam odio? Tenetur, culpa nobis?
+         magnam et commodi similique in fugit dicta optio tenetur repellat, provident sit vel sunt possimus omnis, at maiores assumenda animi sint odit dolores incidunt? Dolores, unde.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- card section-3-start -->
+ <!-- submit section start -->
+
+
+<div class="container my-5">
+    <div class="p-5 text-center rounded-5 custom-purple" >
+
+        <!-- Heading -->
+        <h2 class="text-white mb-4">Get our stories delivered From <br> us to your inbox weekly.</h2>
+
+        <!-- Input + Button -->
+        <div class="d-flex justify-content-center gap-2 mb-4 flex-wrap">
+            <input type="text" class="form-control w-50" placeholder="Enter E-mail">
+            <button class="btn btn-dark">Get started</button>
+        </div>
+
+        
+        <hr class="text-white">
+
+       
+        <p class="text-light small mt-3">
+            Get a response tomorrow if you submit by 9pm today. If we received after <br> 9pm will get a reponse the following day.
+        </p>
+
+    </div>
+</div>
+<!-- submit section end -->
+
+
+ <!-- footer start -->
+  
+<footer class="bg-light text-dark pt-5">
+    <div class="container text-center">
+
+        
+        <img src="./images/footer-main.png" alt="Logo" class="mb-3" style="width:120px;">
+
+        
+        <ul class="list-inline mb-4">
+            <li class="list-inline-item mx-2">
+                <a href="#" class="text-dark text-decoration-none">Home</a>
+            </li>
+            <li class="list-inline-item mx-2">
+                <a href="#" class="text-dark text-decoration-none">Blog</a>
+            </li>
+            <li class="list-inline-item mx-2">
+                <a href="#" class="text-dark text-decoration-none">About</a>
+            </li>
+            <li class="list-inline-item mx-2">
+                <a href="#" class="text-dark text-decoration-none">Contact Us</a>
+            </li>
+        </ul>
+
+       
+        <div class="d-flex justify-content-center gap-2 mb-4 flex-wrap">
+            <img src="images/footer-1.png" class="rounded" width="50" height="50">
+            <img src="images/footer-2.png" class="rounded" width="50" height="50">
+            <img src="images/footer-3.png" class="rounded" width="50" height="50">
+            <img src="images/footer-4.png" class="rounded" width="50" height="50">
+        </div>
+
+       
+        <hr class="border-secondary">
+
+        
+        <p class="small mb-3">
+            Copyright Ideapeel Inc © 2023. All Right Reserved
+        </p>
+
+    </div>
+</footer>
+<!-- Footer End -->
     <!-- swiper j.s script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
